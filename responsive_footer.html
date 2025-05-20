@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Responsive Footer</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    footer {
+      background-color: #222;
+      color: #f1f1f1;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+
+    .footer-section {
+      flex: 1 1 300px;
+      margin: 10px;
+    }
+
+    .footer-section h3 {
+      margin-top: 0;
+      color: #fff;
+    }
+
+    .footer-section p, .footer-section a {
+      color: #ccc;
+      text-decoration: none;
+      font-size: 14px;
+    }
+
+    .footer-section a:hover {
+      color: #fff;
+    }
+
+    .social-icons a {
+      display: inline-block;
+      margin-right: 10px;
+      font-size: 18px;
+      color: #ccc;
+    }
+
+    .social-icons a:hover {
+      color: #fff;
+    }
+
+    @media (max-width: 600px) {
+      footer {
+        flex-direction: column;
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Page content here -->
+
+  <footer>
+    <div class="footer-section">
+      <h3>Contact Us</h3>
+      <p>Email: support@example.com</p>
+      <p>Phone: +91-9876543210</p>
+      <p>Address: Pune, Maharashtra, India</p>
+    </div>
+
+    <div class="footer-section">
+      <h3>Follow Us</h3>
+      <div class="social-icons">
+        <a href="https://instagram.com/shubhangisahane_20" target="_blank">Instagram</a> |
+        <a href="https://linkedin.com/Shubhangi Sahane" target="_blank">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
